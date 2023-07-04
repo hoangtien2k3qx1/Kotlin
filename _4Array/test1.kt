@@ -1,4 +1,4 @@
-package _4Array.KotlinArray
+package _4Array
 
 fun main(args: Array<String>) {
 

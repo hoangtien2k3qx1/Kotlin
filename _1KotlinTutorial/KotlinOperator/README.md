@@ -47,7 +47,8 @@ Assignment operator "=" is used to assign a value to another variable. The assig
 ![image](https://github.com/hoangtien2k3qx1/Kotlin/assets/122768076/5450f5a1-6420-4335-ae6b-94d31206d26d)
 ```kotlin
 fun main(args : Array<String>) {
-    var a =20;var b=5  
+    var a =20;
+    var b=5  
     a+=b  
     println("a+=b :"+ a)  
     a-=b  

@@ -9,6 +9,36 @@ Syntax:
 Array(size: Int, init: (Int) -> T)  
 ```
 
+
+## Trong Kotlin, có các cách sau để tạo một mảng:
+1. `Tạo mảng với kích thước cố định`:
+```kotlin
+val array1 = arrayOf(1, 2, 3, 4, 5)  // Tạo mảng với các phần tử đã được khởi tạo
+val array2 = arrayOfNulls<String>(5) // Tạo mảng rỗng với kích thước 5, chứa các giá trị null
+```
+
+2. `Tạo mảng số nguyên tuần tự`:
+```kotlin
+val array3 = IntArray(5)  // Tạo mảng rỗng với kích thước 5, các phần tử mặc định được khởi tạo là 0
+val array4 = intArrayOf(1, 2, 3, 4, 5) // Tạo mảng số nguyên từ các giá trị đã cho
+val array5 = IntArray(5) { it + 1 } // Tạo mảng số nguyên từ 1 đến 5
+```
+
+3. `Tạo mảng động`:
+```kotlin
+val dynamicArray = ArrayList<Int>() // Tạo một mảng động kiểu Int
+dynamicArray.add(1) // Thêm phần tử vào mảng
+dynamicArray.add(2)
+dynamicArray.add(3)
+```
+
+4. `Tạo mảng với một giá trị cho tất cả các phần tử`:
+```kotlin
+val array6 = IntArray(5)
+array6.fill(0) // Gán giá trị 0 cho tất cả các phần tử trong mảng
+```
+
+
 ## Kotlin array declaration - using arrayOf() function
 ```kotlin
 var myArray1 = arrayOf(1,10,4,6,15)  
@@ -55,8 +85,7 @@ fun main(args: Array<String>) {
     println(array1[2])  
     println()  
     println(array2.get(2))  
-    println(array2[3])  
-      
+    println(array2[3])
 }  
 ```
 

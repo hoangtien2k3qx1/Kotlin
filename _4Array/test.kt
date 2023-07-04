@@ -1,4 +1,4 @@
-package _4Array.KotlinArray
+package _4Array
 
 fun main(args: Array<String>) {
     val array1 = arrayOf(1,2,3,4)
