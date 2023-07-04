@@ -1,0 +1,22 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Bỏ qua các file và thư mục được tạo bởi IntelliJ IDEA
+.idea/
+
+# Bỏ qua các file và thư mục được tạo bởi Android Studio
+/.gradle/
+/build/
+
+# Bỏ qua file .iml được tạo bởi IntelliJ IDEA hoặc Android Studio
+*.iml
+
+# Bỏ qua các file bytecode của Kotlin (file .class)
+*.class
+
+# Bỏ qua các file thư mục output của Maven
+/target/
+
+# Bỏ qua các file cấu hình của Maven
+pom.xml.*
