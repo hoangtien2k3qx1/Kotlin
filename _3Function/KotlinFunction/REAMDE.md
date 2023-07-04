@@ -27,6 +27,38 @@ fun functionName(){
 }  
 ```
 
+Example:
+```kotlin
+fun main(args: Array<String>){  
+    sum()  
+    print("code after sum")  
+}  
+
+fun sum(){  
+    var num1 = 5  
+    var num2 = 6  
+    println("sum = "+(num1+num2))  
+}
+
+fun sum_return(): Int {
+    var num1 = 5
+    var num2 = 6
+    return (num1 + num2)
+}  
+```
+
+## Kotlin Parameterize Function and Return Value
+```kotlin
+fun main(args: Array<String>){  
+   val result = sum(5, 6)  
+    print(result)  
+}  
+
+fun sum(number1: Int, number2:Int): Int {  
+    val add = number1 + number2  
+    return add  
+}  
+```
 
 
 
