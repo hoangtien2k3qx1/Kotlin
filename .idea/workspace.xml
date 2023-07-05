@@ -5,39 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="380681f7-dac9-4e2b-abc1-c2a2878f8534" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_5String/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5String/test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5String/test1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_6ExceptionHandling/ExceptionHandling/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_6ExceptionHandling/KotlinFinallyBlock/REAMDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_6ExceptionHandling/KotlinThrowKeyword/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_6ExceptionHandling/KotlinTryCatch/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_6ExceptionHandling/MultipleCatchBlock/REAMDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_6ExceptionHandling/NestedTryBlock/REAMDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7NullSafety/ElvisOperator/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7NullSafety/ElvisOperator/test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7NullSafety/ElvisOperator/test1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7NullSafety/KotlinNullSafety/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7NullSafety/KotlinNullSafety/test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7NullSafety/KotlinNullSafety/test1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7NullSafety/SmartCast/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7NullSafety/SmartCast/test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7NullSafety/SmartCast/test1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7NullSafety/SmartCast/test2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7NullSafety/SmartCast/test3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7NullSafety/UnsafeAndSafeCast/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7NullSafety/UnsafeAndSafeCast/test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinCollections/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinListInterface/REAMDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinListInterface/test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_8Collections/MutableArray/REAMDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_8Collections/MutableArray/test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinArrayList/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinHashMap/REAMDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinHashMap/test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinHashSetClass/REAMDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinMapInterface/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinMapInterface/test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinMutableList/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinMutableList/test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinMutableMap/REAMDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinMutableSetInterface/REAMDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinSetInterface/REAMDE.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_1KotlinTutorial/KotlinOperator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/_1KotlinTutorial/KotlinOperator/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_4Array/KotlinArray/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_4Array/KotlinArray/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_4Array/KotlinArray/test1.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -84,7 +63,7 @@
       <recent name="D:\CodeJava\Kotlin\_2ControlFlow\KotlinDoWhileLoop" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TestKt">
+  <component name="RunManager" selected="Kotlin.TestKt (4)">
     <configuration name="Test1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_7NullSafety.ElvisOperator.Test1Kt" />
       <module name="Kotlin" />
@@ -92,22 +71,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_7NullSafety.SmartCast.Test3Kt" />
-      <module name="Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_7NullSafety.ElvisOperator.TestKt" />
-      <module name="Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_8Collections.MutableArray.TestKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8Collections.KotlinMutableList.TestKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKt (4)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8Collections.KotlinMapInterface.TestKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TestKt (4)" />
+        <item itemvalue="Kotlin.TestKt (3)" />
         <item itemvalue="Kotlin.TestKt" />
         <item itemvalue="Kotlin.TestKt (2)" />
         <item itemvalue="Kotlin.Test1Kt" />
-        <item itemvalue="Kotlin.TestKt (1)" />
-        <item itemvalue="Kotlin.Test3Kt" />
       </list>
     </recent_temporary>
   </component>
