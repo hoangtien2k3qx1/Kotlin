@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="380681f7-dac9-4e2b-abc1-c2a2878f8534" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinArrayList/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinHashMap/REAMDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinHashMap/test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinHashSetClass/REAMDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinMapInterface/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinMapInterface/test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinMutableList/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinMutableList/test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinMutableMap/REAMDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinMutableSetInterface/REAMDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_8Collections/KotlinSetInterface/REAMDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10Reflection/REAMDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10Reflection/test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11KotlinOOPs/KotlinClassAndObject/Account.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11KotlinOOPs/KotlinClassAndObject/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11KotlinOOPs/KotlinClassAndObject/test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11KotlinOOPs/NestedXClassAndInnerClass/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11KotlinOOPs/NestedXClassAndInnerClass/outerClass_InnerClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11KotlinOOPs/NestedXClassAndInnerClass/outerClass_NestedClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_9Annotations/Ann.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_9Annotations/REAMDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_9Annotations/test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +29,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -49,51 +52,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CodeJava/Kotlin&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "last_opened_file_path": "D:/CodeJava/Kotlin"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CodeJava\Kotlin\_2ControlFlow\KotlinContinueJumpStructure" />
       <recent name="D:\CodeJava\Kotlin\_2ControlFlow\KotlinDoWhileLoop" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TestKt (4)">
-    <configuration name="Test1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_7NullSafety.ElvisOperator.Test1Kt" />
+  <component name="RunManager" selected="Kotlin.OuterClass_InnerClassKt">
+    <configuration name="OuterClass_InnerClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_11KotlinOOPs.NestedXClassAndInnerClass.OuterClass_InnerClassKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OuterClass_NestedClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_11KotlinOOPs.NestedXClassAndInnerClass.OuterClass_NestedClassKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_9Annotations.TestKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TestKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8Collections.MutableArray.TestKt" />
+      <option name="MAIN_CLASS_NAME" value="_11KotlinOOPs.KotlinClassAndObject.TestKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8Collections.KotlinMutableList.TestKt" />
-      <module name="Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestKt (4)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8Collections.KotlinMapInterface.TestKt" />
-      <module name="Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8Collections.KotlinListInterface.TestKt" />
+    <configuration name="TestKt (5)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10Reflection.TestKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.TestKt (4)" />
-        <item itemvalue="Kotlin.TestKt (3)" />
-        <item itemvalue="Kotlin.TestKt" />
+        <item itemvalue="Kotlin.OuterClass_InnerClassKt" />
+        <item itemvalue="Kotlin.OuterClass_NestedClassKt" />
         <item itemvalue="Kotlin.TestKt (2)" />
-        <item itemvalue="Kotlin.Test1Kt" />
+        <item itemvalue="Kotlin.TestKt (5)" />
+        <item itemvalue="Kotlin.TestKt (1)" />
       </list>
     </recent_temporary>
   </component>
