@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="380681f7-dac9-4e2b-abc1-c2a2878f8534" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_11KotlinOOPs/KotlinGenerics/REAMDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11KotlinOOPs/KotlinGenerics/test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11KotlinOOPs/KotlinGenerics/test2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12Ranges/IntegralTypeRanges/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12Ranges/IntegralTypeRanges/test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12Ranges/IntegralTypeRanges/test1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12Ranges/IntegralTypeRanges/test2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12Ranges/IntegralTypeRanges/test3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12Ranges/KotlinUtilityFunctions/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12Ranges/KotlinUtilityFunctions/test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12Ranges/KotlinUtilityFunctions/test1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12Ranges/KotlinUtilityFunctions/test2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12Ranges/KotlinUtilityFunctions/test3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12Ranges/KotlinUtilityFunctions/test4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13JavaInteroperability/CallingJavaCodeFromKotlin/MainKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13JavaInteroperability/CallingJavaCodeFromKotlin/MyJavaClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13JavaInteroperability/CallingKotlinCodeFromJava/MyJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13JavaInteroperability/CallingKotlinCodeFromJava/MyKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14Regex/KotlinRegex/REAMDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14Regex/KotlinRegexPattern/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14Regex/KotlinRegexPattern/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13JavaInteroperability/CallingJavaCodeFromKotlin/REAMDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/_13JavaInteroperability/CallingJavaCodeFromKotlin/REAMDE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13JavaInteroperability/CallingKotlinCodeFromJava/REAMDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/_13JavaInteroperability/CallingKotlinCodeFromJava/REAMDE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +25,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,9 +63,22 @@
       <recent name="D:\CodeJava\Kotlin\_2ControlFlow\KotlinDoWhileLoop" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Test4Kt">
-    <configuration name="Test1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_12Ranges.KotlinUtilityFunctions.Test1Kt" />
+  <component name="RunManager" selected="Application.MyJava">
+    <configuration name="MyJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_13JavaInteroperability.CallingKotlinCodeFromJava.MyJava" />
+      <module name="Kotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_13JavaInteroperability.CallingKotlinCodeFromJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_13JavaInteroperability.CallingJavaCodeFromKotlin.MainKotlinKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,20 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_12Ranges.KotlinUtilityFunctions.TestKt" />
-      <module name="Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyJava" />
+        <item itemvalue="Kotlin.MainKotlinKt" />
         <item itemvalue="Kotlin.Test4Kt" />
         <item itemvalue="Kotlin.Test3Kt (1)" />
         <item itemvalue="Kotlin.Test2Kt (1)" />
-        <item itemvalue="Kotlin.Test1Kt" />
-        <item itemvalue="Kotlin.TestKt (2)" />
       </list>
     </recent_temporary>
   </component>
