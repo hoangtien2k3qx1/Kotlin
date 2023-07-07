@@ -1,6 +1,18 @@
 
 ## Kotlin MutableMap Interface
+Khai báo `MutableMap` không null và có thể thay đổi sử dụng `mutableMapOf<K, V>()` hoặc `hashMapOf<K, V>()`
 
+Các chức năng chính của `Map` trong Kotlin bao gồm:
+
+- `get(key: K)`: Lấy giá trị tương ứng với khóa `key` từ `Map`.
+- `containsKey(key: K)`: Kiểm tra xem `Map` có chứa khóa `key` hay không.
+- `containsValue(value: V)`: Kiểm tra xem `Map` có chứa giá trị `value` hay không.
+- `put(key: K, value: V)`: Thêm một cặp khóa-giá trị vào `Map`.
+- `remove(key: K)`: Xóa khóa và giá trị tương ứng khỏi `Map`.
+- `isEmpty()`: Kiểm tra xem `Map` có rỗng hay không.
+- `size`: Trả về số lượng cặp khóa-giá trị trong `Map`.
+
+  
 Kotlin MutableMap Interface Declaration
 ```kotlin
 interface MutableMap<K, V> : Map<K, V> (source)  
