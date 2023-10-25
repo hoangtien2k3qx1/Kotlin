@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="380681f7-dac9-4e2b-abc1-c2a2878f8534" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_13JavaInteroperability/CallingJavaCodeFromKotlin/MainKotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13JavaInteroperability/CallingJavaCodeFromKotlin/MyJavaClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13JavaInteroperability/CallingKotlinCodeFromJava/MyJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13JavaInteroperability/CallingKotlinCodeFromJava/MyKotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14Regex/KotlinRegex/REAMDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14Regex/KotlinRegexPattern/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14Regex/KotlinRegexPattern/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kotlin_Learn/Contructor/PrimaryContructor/PrimaryConstructor_1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kotlin_Learn/Contructor/PrimaryContructor/PrimaryConstructor_2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kotlin_Learn/Contructor/SecondaryContructor/Animal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kotlin_Learn/Contructor/SecondaryContructor/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kotlin_Learn/Contructor/SecondaryContructor/Product.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kotlin_Learn/InitializationBlock/Java/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kotlin_Learn/InitializationBlock/REAMDE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13JavaInteroperability/CallingJavaCodeFromKotlin/REAMDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/_13JavaInteroperability/CallingJavaCodeFromKotlin/REAMDE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13JavaInteroperability/CallingKotlinCodeFromJava/REAMDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/_13JavaInteroperability/CallingKotlinCodeFromJava/REAMDE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -40,6 +39,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2S4Sjc258keYpnDoSWvr3rw5R3E" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,28 +50,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CodeJava/Kotlin&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-18 (2)",
+    "last_opened_file_path": "/Volumes/Data/Code-base/Kotlin"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CodeJava\Kotlin\_2ControlFlow\KotlinContinueJumpStructure" />
       <recent name="D:\CodeJava\Kotlin\_2ControlFlow\KotlinDoWhileLoop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyJava">
-    <configuration name="MyJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_13JavaInteroperability.CallingKotlinCodeFromJava.MyJava" />
+  <component name="RunManager" selected="Kotlin.ProductKt">
+    <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kotlin_Learn.InitializationBlock.Java.Animal" />
       <module name="Kotlin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_13JavaInteroperability.CallingKotlinCodeFromJava.*" />
+          <option name="PATTERN" value="Kotlin_Learn.InitializationBlock.Java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,29 +80,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_13JavaInteroperability.CallingJavaCodeFromKotlin.MainKotlinKt" />
+    <configuration name="AnimalKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kotlin_Learn.Contructor.SecondaryContructor.AnimalKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_12Ranges.KotlinUtilityFunctions.Test2Kt" />
+    <configuration name="PrimaryConstructor_1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kotlin_Learn.Contructor.PrimaryContructor.PrimaryConstructor_1Kt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_12Ranges.KotlinUtilityFunctions.Test3Kt" />
+    <configuration name="PrimaryConstructor_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kotlin_Learn.Contructor.PrimaryContructor.PrimaryConstructor_2Kt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_12Ranges.KotlinUtilityFunctions.Test4Kt" />
+    <configuration name="ProductKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kotlin_Learn.Contructor.SecondaryContructor.ProductKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyJava" />
-        <item itemvalue="Kotlin.MainKotlinKt" />
-        <item itemvalue="Kotlin.Test4Kt" />
-        <item itemvalue="Kotlin.Test3Kt (1)" />
-        <item itemvalue="Kotlin.Test2Kt (1)" />
+        <item itemvalue="Kotlin.ProductKt" />
+        <item itemvalue="Kotlin.AnimalKt" />
+        <item itemvalue="Kotlin.PrimaryConstructor_2Kt" />
+        <item itemvalue="Application.Animal" />
+        <item itemvalue="Kotlin.PrimaryConstructor_1Kt" />
       </list>
     </recent_temporary>
   </component>
