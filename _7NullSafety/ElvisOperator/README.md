@@ -13,7 +13,6 @@ fun main(args: Array<String>){
     var len1: Int = if (str != null) str.length else -1  
     var len2: Int = if (str2 != null) str2.length else -1
 
-
     var len_1: Int = str?.length ?: -1
     var len_2: Int = str2?.length ?:  -1
 

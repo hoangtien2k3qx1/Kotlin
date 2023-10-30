@@ -42,11 +42,3 @@ fun addNumber(a: Int, b: Int, mylambda: (Int) -> Unit ){   //high level function
     mylambda(add) // println(add)  
 }  
 ```
-
-
-
-
-
-
-
-
