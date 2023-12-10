@@ -1,7 +1,82 @@
-# Kotlin
+# [Kotlin Tutorial 2023]()
 Welcome to Kotlin! It is an open-source, statically typed programming language supported and developed by JetBrains and open-source contributors.
 
-### Toán tử Elvis `?:` (còn được gọi là "Elvis operator")
+## [Destructuring declarations](https://kotlinlang.org/docs/destructuring-declarations.html)
+
+Example: Sometimes it is `convenient` to destructure an object into a number of variables
+```kotlin
+val (name, age) = person
+```
+
+```kotlin
+println(name)
+println(age)
+```
+
+A `destructuring declaration` is compiled down to the following code:
+```kotlin
+val name = person.component1()
+val age = person.component2()
+```
+
+Destructuring declarations also work in `for-loops`:
+```kotlin
+for ((a, b) in collection) { ... }
+```
+
+Example: returning two values from a function:
+```kotlin
+data class Result(val result: Int, val status: Status)
+fun function(...): Result {
+    // computations
+
+    return Result(result, status)
+}
+
+// Now, to use this function:
+val (result, status) = function(...)
+```
+
+Example: destructuring declarations and `maps`:
+```kotlin
+for ((key, value) in map) {
+   // do something with the key and the value
+}
+```    
+
+```kotlin
+operator fun <K, V> Map<K, V>.iterator(): Iterator<Map.Entry<K, V>> = entrySet().iterator()
+operator fun <K, V> Map.Entry<K, V>.component1() = getKey()
+operator fun <K, V> Map.Entry<K, V>.component2() = getValue()
+```
+
+Underscore for unused variables:
+```kotlin
+val (_, status) = getResult()
+```
+
+Destructuring in lambdas:
+```kotlin
+map.mapValues { entry -> "${entry.value}!" }
+map.mapValues { (key, value) -> "$value!" }
+```
+```kotlin
+{ a -> ... } // one parameter
+{ a, b -> ... } // two parameters
+{ (a, b) -> ... } // a destructured pair
+{ (a, b), c -> ... } // a destructured pair and another parameter
+```
+```kotlin
+map.mapValues { (_, value) -> "$value!" }
+```
+```kotlin
+map.mapValues { (_, value): Map.Entry<Int, String> -> "$value!" }
+
+map.mapValues { (_, value: String) -> "$value!" }
+```
+
+
+## [Toán tử Elvis ?: ("Elvis operator")]()
 syntax: `Toán tử Elvis `?:` có cú pháp: `expression1 ?: expression2`.`
 
 Cách hoạt động của toán tử này như sau:
@@ -29,7 +104,6 @@ fun main() {
     println(person2?.age?.toString()) // Kết quả: null
 }
 ```
-
 
 ### Toán tử `as` và `as?`
 1. Toán tử `as`:
