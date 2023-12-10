@@ -5,159 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="380681f7-dac9-4e2b-abc1-c2a2878f8534" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lambda/demo_lambda.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infix/demo_infix_kotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inline/REAMDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inline/demo_Inline_kotlin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kotlin_Learn/Contructor/PrimaryContructor/PrimaryConstructor_1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kotlin_Learn/Contructor/PrimaryContructor/PrimaryConstructor_2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kotlin_Learn/Contructor/SecondaryContructor/Animal.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kotlin_Learn/Contructor/SecondaryContructor/Person.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kotlin_Learn/Contructor/SecondaryContructor/Product.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kotlin_Learn/InitializationBlock/Java/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kotlin_Learn/InitializationBlock/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kotlin_Learn/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_10Reflection/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_10Reflection/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinAbstractClass/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinAbstractClass/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinAbstractClass/test2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinAbstractClass/test3.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinClassAndObject/Account.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinClassAndObject/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinClassAndObject/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinConstructor/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinConstructor/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinConstructor/test2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinConstructor/test3.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinConstructor/test4.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinConstructor/test5.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinDataClass/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinDataClass/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinDataClass/test1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinExtensionFunction/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinExtensionFunction/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinExtensionFunction/test1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinExtensionFunction/test2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinGenerics/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinGenerics/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinGenerics/test2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinInheritance/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinInheritance/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinInheritance/test2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinInterface/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinInterface/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinSealedClass/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinSealedClass/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/KotlinVisibilityModifier/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/NestedXClassAndInnerClass/OuterClass_InnerClass_Java.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/NestedXClassAndInnerClass/OuterClass_NestedClass_Java.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/NestedXClassAndInnerClass/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/NestedXClassAndInnerClass/outerClass_InnerClass.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11KotlinOOPs/NestedXClassAndInnerClass/outerClass_NestedClass.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_12Ranges/IntegralTypeRanges/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_12Ranges/IntegralTypeRanges/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_12Ranges/IntegralTypeRanges/test1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_12Ranges/IntegralTypeRanges/test2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_12Ranges/IntegralTypeRanges/test3.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_12Ranges/KotlinUtilityFunctions/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_12Ranges/KotlinUtilityFunctions/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_12Ranges/KotlinUtilityFunctions/test1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_12Ranges/KotlinUtilityFunctions/test2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_12Ranges/KotlinUtilityFunctions/test3.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_12Ranges/KotlinUtilityFunctions/test4.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13JavaInteroperability/CallingJavaCodeFromKotlin/MainKotlin.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13JavaInteroperability/CallingJavaCodeFromKotlin/MyJavaClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13JavaInteroperability/CallingJavaCodeFromKotlin/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13JavaInteroperability/CallingKotlinCodeFromJava/MyJava.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13JavaInteroperability/CallingKotlinCodeFromJava/MyKotlin.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13JavaInteroperability/CallingKotlinCodeFromJava/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_14Regex/KotlinRegex/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_14Regex/KotlinRegexPattern/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_14Regex/KotlinRegexPattern/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_1KotlinTutorial/KotlinComment/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_1KotlinTutorial/KotlinDataType/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_1KotlinTutorial/KotlinOperator/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_1KotlinTutorial/KotlinStandardInputOutput/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_1KotlinTutorial/KotlinTypeConversion/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_1KotlinTutorial/KotlinVariable/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_2ControlFlow/KotlinContinueJumpStructure/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_2ControlFlow/KotlinContinueJumpStructure/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_2ControlFlow/KotlinDoWhileLoop/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_2ControlFlow/KotlinForLoop/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_2ControlFlow/KotlinForLoop/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_2ControlFlow/KotlinIfExpression/NestedifExpression.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_2ControlFlow/KotlinIfExpression/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_2ControlFlow/KotlinReturnAndJump/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_2ControlFlow/KotlinReturnAndJump/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_2ControlFlow/KotlinWhenExpression/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_2ControlFlow/KotlinWhenExpression/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_2ControlFlow/KotlinWhileLoop/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/HigherOrderFunction/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/HigherOrderFunction/Test1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/HigherOrderFunction/Test4.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/HigherOrderFunction/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/InlineFunction/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/InlineFunction/noinline.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/InlineFunction/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/InlineFunction/test1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/InlineFunction/test2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/KotlinDefaultAndNamedArgument/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/KotlinFunction/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/KotlinFunction/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/KotlinLambdaFunction/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/KotlinLambdaFunction/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/KotlinLambdaFunction/test3.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/KotlinRecursionFunction/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/KotlinRecursionFunction/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3Function/KotlinRecursionFunction/test2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_4Array/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_4Array/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_4Array/test1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_4Array/test3.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_4Array/test4.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_5String/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_5String/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_5String/test1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_6ExceptionHandling/ExceptionHandling/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_6ExceptionHandling/KotlinFinallyBlock/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_6ExceptionHandling/KotlinThrowKeyword/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_6ExceptionHandling/KotlinTryCatch/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_6ExceptionHandling/MultipleCatchBlock/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_6ExceptionHandling/NestedTryBlock/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_7NullSafety/ElvisOperator/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_7NullSafety/ElvisOperator/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_7NullSafety/ElvisOperator/test1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_7NullSafety/KotlinNullSafety/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_7NullSafety/KotlinNullSafety/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_7NullSafety/KotlinNullSafety/test1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_7NullSafety/SmartCast/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_7NullSafety/SmartCast/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_7NullSafety/SmartCast/test1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_7NullSafety/SmartCast/test2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_7NullSafety/SmartCast/test3.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_7NullSafety/UnsafeAndSafeCast/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_7NullSafety/UnsafeAndSafeCast/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/KotlinArrayList/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/KotlinCollections/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/KotlinHashMap/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/KotlinHashMap/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/KotlinHashSetClass/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/KotlinListInterface/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/KotlinListInterface/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/KotlinMapInterface/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/KotlinMapInterface/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/KotlinMutableList/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/KotlinMutableList/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/KotlinMutableMap/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/KotlinMutableSetInterface/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/KotlinSetInterface/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/MutableArray/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_8Collections/MutableArray/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_9Annotations/Ann.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_9Annotations/REAMDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_9Annotations/test.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/github-contribution-grid-snake.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,8 +20,8 @@
       <list>
         <option value="Kotlin Interface" />
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -196,6 +47,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Kotlin.Demo_Inline_kotlinKt.executor": "Run",
+    "Kotlin.Demo_infix_kotlinKt.executor": "Run",
     "Kotlin.Demo_lambdaKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -217,23 +70,23 @@
       <recent name="D:\CodeJava\Kotlin\_2ControlFlow\KotlinDoWhileLoop" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Demo_lambdaKt">
+  <component name="RunManager" selected="Kotlin.Demo_infix_kotlinKt">
+    <configuration name="Demo_Inline_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo_Inline_kotlinKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_infix_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Infix.Demo_infix_kotlinKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo_lambdaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lambda.Demo_lambdaKt" />
-      <module name="Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_3Function.HigherOrderFunction.Test1Kt" />
-      <module name="Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_3Function.KotlinLambdaFunction.Test3Kt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -255,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Demo_infix_kotlinKt" />
+        <item itemvalue="Kotlin.Demo_Inline_kotlinKt" />
         <item itemvalue="Kotlin.Demo_lambdaKt" />
         <item itemvalue="Kotlin.TestKt" />
         <item itemvalue="Kotlin.Test4Kt" />
-        <item itemvalue="Kotlin.Test3Kt" />
-        <item itemvalue="Kotlin.Test1Kt" />
       </list>
     </recent_temporary>
   </component>
