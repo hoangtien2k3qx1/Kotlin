@@ -8,6 +8,25 @@ package Scope_Function
  * @description:
  */
 
+/**
+ * @note:
+ *
+ * @kotlin.internal.InlineOnly
+ * public inline fun <T, R> with(receiver: T, block: T.() -> R): R {
+ *     contract {
+ *         callsInPlace(block, InvocationKind.EXACTLY_ONCE)
+ *     }
+ *     return receiver.block()
+ * }
+ */
+
+/**
+ * @note:
+ *
+ * The context object is available as a receiver (this).
+ *
+ * The return value is the lambda result.
+ */
 
 /**
  * @note: scope function with run
@@ -41,5 +60,23 @@ fun main() {
         this.phoneNumber = "84123456789"
         this.action()
     }
+
+
+    println("_".repeat(50))
+
+
+    val numbersDemo1 = mutableListOf("one", "two", "three")
+    with(numbersDemo1) {
+        println("'with' is called with argument $this")
+        println("It contains $size elements")
+    }
+
+
+    val numbersDemo2 = mutableListOf("one", "two", "three")
+    val firstAndLast = with(numbersDemo2) {
+        "The first element is ${first()}," +
+        " the last element is ${last()}"
+    }
+    println(firstAndLast)
 
 }

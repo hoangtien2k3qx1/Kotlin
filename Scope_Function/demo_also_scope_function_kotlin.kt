@@ -1,6 +1,5 @@
 package Scope_Function
 
-
 /**
  * @author: hoangtien2k3
  * @create: 11/12/2023 - 15:32
@@ -52,6 +51,16 @@ fun main() {
         it.name = "hoangtien2k3 a backend developer"
         println("New Name: ${it.name}")
     }
+
+
+    val numbers = mutableListOf(1, 2, 3)
+
+    numbers.also { println("Current list: $it") }
+        .add(4)
+        .also { println("List after adding 4: $it") }
+
+
+
 
 }
 

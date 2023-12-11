@@ -1,5 +1,7 @@
 package Scope_Function
 
+import kotlin.random.Random
+
 /**
  * @author: hoangtien2k3
  * @create: 11/12/2023 - 15:36
@@ -23,9 +25,9 @@ package Scope_Function
  */
 
 /**
- * @note:
- * 
- * takeIf: Returns this value if it satisfies the given predicate or null, if it doesn't.
+ * @note: takeIf
+ *
+ * takeIf returns this object if it satisfies the given predicate. Otherwise, it returns null
  */
 
 private fun debuglog(any: Any?) {
@@ -64,5 +66,13 @@ fun main() {
     UserManager().findUserById("hello")
 
     UserManager().findNewUserById("hoangtien2k3")
+
+
+    // demo
+    val number = Random.nextInt(100)
+
+    val evenOrNull = number.takeIf { it % 2 == 0 }
+    val oddOrNull = number.takeUnless { it % 2 == 0 }
+    println("even: $evenOrNull, odd: $oddOrNull")
 
 }

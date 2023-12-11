@@ -10,16 +10,26 @@ import kotlin.random.Random
  * @description: scope function with let
  */
 
+/**
+ * @note:
+ *
+ * @kotlin.internal.InlineOnly
+ * public inline fun <T, R> T.let(block: (T) -> R): R {
+ *     contract {
+ *         callsInPlace(block, InvocationKind.EXACTLY_ONCE)
+ *     }
+ *     return block(this)
+ * }
+ */
 
-/*
-@kotlin.internal.InlineOnly
-public inline fun <T, R> T.let(block: (T) -> R): R {
-    contract {
-        callsInPlace(block, InvocationKind.EXACTLY_ONCE)
-    }
-    return block(this)
-}
-*/
+/**
+ * @note: let
+ *
+ *  The context object is available as an argument (it).
+ *
+ *  The return value is the lambda result.
+ */
+
 
 // normal function
 fun randomEvenIntOrNullOld(): Int? {
@@ -70,13 +80,39 @@ fun f3(c: C) = D()
 
 fun main() {
 
+    // Example:
+    val numbersDemo = mutableListOf("one", "two", "three", "four", "five")
+    val resultList = numbersDemo.map { it.length }.filter { it > 3 }
+    println(resultList)
+
+
+    // With let
+    val numbersLet = mutableListOf("one", "two", "three", "four", "five")
+    numbersLet.map { it.length }.filter { it > 3 }.let(::println)
+
+
+    //
+    val numbers = listOf("one", "two", "three", "four")
+    val modifiedFirstItem = numbers.first().let { firstItem ->
+        println("The first item of the list is '$firstItem'")
+        if (firstItem.length >= 5) firstItem else "!" + firstItem + "!"
+    }.uppercase()
+    println("First item after modifications: '$modifiedFirstItem'")
+
+
+    println("_".repeat(50))
+
 
     // using let in scope function
-    "hello scope function".let {
+    val result = "hello scope function".let {
         println(it)
 
         1 + 2
     }
+
+    println(result)
+
+    println("_".repeat(50))
 
     val randomEvenIntOrNullOld = randomEvenIntOrNullOld()
     println(randomEvenIntOrNullOld)

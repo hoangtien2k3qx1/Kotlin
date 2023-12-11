@@ -8,7 +8,6 @@ package Scope_Function
  * @description:
  */
 
-
 /**
  * @note: scope function with run
  *
@@ -19,7 +18,14 @@ package Scope_Function
  *     }
  *     return block()
  * }
+ */
+
+/**
+ * @note: run
  *
+ *  The context object is available as a receiver (this).
+ *
+ *  The return value is the lambda result.
  */
 
 
@@ -37,10 +43,11 @@ class DemoRunScopeFunction {
 
 fun main() {
     val str = "Hello"
+
     // this
     str.run {
         println("The string's length: $length")
-        //println("The string's length: ${this.length}") // does the same
+        println("The string's length: ${this.length}") // does the same
     }
 
     // it
@@ -65,7 +72,28 @@ fun main() {
         name = "hoangtien2k3"
         age = 20
         phoneNumber = "+84123456789"
-        action() // demo2
+
+        action() // return Oke
     }
+    println(demo2)
+
+
+
+    println("_".repeat(50))
+
+
+    val hexNumberRegex = run {
+        val digits = "0-9"
+        val hexDigits = "A-Fa-f"
+        val sign = "+-"
+
+        Regex("[$sign]?[$digits$hexDigits]+")
+    }
+
+    for (match in hexNumberRegex.findAll("+123 -FFFF !%*& 88 XYZ")) {
+        println(match.value)
+    }
+
+
 
 }

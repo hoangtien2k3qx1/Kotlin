@@ -8,7 +8,6 @@ package Scope_Function
  * @description:
  */
 
-
 /**
  * @note:
  *
@@ -21,6 +20,14 @@ package Scope_Function
  *     return this
  * }
  *
+ */
+
+/**
+ * @note: apply
+ *
+ * The context object is available as a receiver (this).
+ *
+ * The return value is the object itself.
  */
 
 /**
@@ -62,7 +69,11 @@ private fun newUserDemo2(): DemoUser2 = DemoUser2().apply {
 
 fun main() {
 
+    // normal function
+    val newDemo1: DemoUser2 = makeUserDemo2()
 
+    // using apply scope function
+    val newDemo2: DemoUser2 = newUserDemo2()
 
 
 }

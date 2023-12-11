@@ -1,5 +1,7 @@
 package Scope_Function
 
+import kotlin.random.Random
+
 /**
  * @author: hoangtien2k3
  * @create: 11/12/2023 - 15:46
@@ -20,6 +22,12 @@ package Scope_Function
  *     return if (!predicate(this)) this else null
  * }
  *
+ */
+
+/**
+ * @note: takeUnless
+ *
+ * takeUnless returns null if it satisfies the given predicate. Otherwise, it returns the object.
  */
 
 private fun debuglog(any: Any?) {
@@ -57,5 +65,12 @@ fun main() {
     UserManager4().findUserById("hello")
 
     UserManager4().findNewUserById("hoangtien2k3")
+
+    // demo
+    val number = Random.nextInt(100)
+
+    val evenOrNull = number.takeIf { it % 2 == 0 }
+    val oddOrNull = number.takeUnless { it % 2 == 0 }
+    println("even: $evenOrNull, odd: $oddOrNull")
 
 }
