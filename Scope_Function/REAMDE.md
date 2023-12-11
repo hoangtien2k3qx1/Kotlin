@@ -1,7 +1,10 @@
 
 ## Scope Function:
 
-![img.png](img.png)
+Kotlin cung cấp nhiều function như một block code trên 1 project. Các function này được gọi là scope function,
+vì chúng tạo ra một scope tạm thời để thực hiện blog code.
+
+Các scope function này là: `let`, `apply`, `with`, `also`, `run`, `takeIf`, `takeUnless`
 
 
 | Function | Object reference | Return value   | is extention function |
