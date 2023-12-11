@@ -1,6 +1,16 @@
 package Lambda
 
-import javax.security.auth.callback.Callback
+/**
+ * @author: hoangtien2k3
+ * @create: 11/12/2023 - 08:59
+ * @file: demo_lambda.kt
+ * @update: 11/12/2023
+ * @description:  Destructuring in lambdas
+ * { a -> ... } // one parameter
+ * { a, b -> ... } // two parameters
+ * { (a, b) -> ... } // a destructured pair
+ * { (a, b), c -> ... } // a destructured pair and another parameter
+ */
 
 fun sumMethod(a: Int, b: Int): Int {
     println("Called $a and $b")
@@ -36,6 +46,12 @@ fun adder(firstNumber: Int): (Int) -> Int {
 fun adder1(s1: Int): (Int) -> Int = { s2 -> s1 * s2 }
 
 
+// calculater sum
+fun operation(a: Int, b: Int, op: (Int, Int) -> Int): Int {
+    return op(a, b)
+}
+
+
 fun main() {
 
     val sumLambda: (Int, Int) -> Int = { a: Int, b: Int -> a + b }
@@ -45,7 +61,7 @@ fun main() {
 
 //    val value = sumLambda.invoke(1, 2)
     val value: Int = sumLambda(1, 2)
-    println(value)
+    println("Sum: $value")
 
 
     // method reference, function reference: nomal method/function -> lambda
@@ -63,6 +79,16 @@ fun main() {
     listOf(1, 2, 3, 4, 5, 6, 7, 9, 10)
         .filter(isNumberGreaterThan10)
         .forEach(::println)
+
+
+    // function lambda example:
+    val sum_a_plus_b = operation(1, 2, {a, b -> a + b})
+    println(sum_a_plus_b)
+
+    val adder1 = adder(firstNumber = 1) // 1 + 10
+    println(adder1)
+    val adder2 = adder(2) // 2 + 10
+    println(adder2)
 
 
     // callback hell
@@ -87,11 +113,5 @@ fun main() {
 
     }
 
-
-
-    val adder1 = adder(firstNumber = 1) // 1 + 10
-    println(adder1)
-    val adder2 = adder(2) // 2 + 10
-    println(adder2)
 
 }

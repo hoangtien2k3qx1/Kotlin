@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="380681f7-dac9-4e2b-abc1-c2a2878f8534" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Infix/demo_infix_kotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inline/REAMDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inline/demo_Inline_kotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backing_Fields/demo_backing_fields.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backing_Properties/demo_backing_properties.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataClass/demo_data_class_kotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extention_Function_and_Properties/demo_extention_function_kotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambda/demo_lambda_kotlin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lambda/demo_lambda.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +52,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.Demo_Inline_kotlinKt.executor": "Run",
+    "Kotlin.Demo_data_class_kotlinKt.executor": "Run",
+    "Kotlin.Demo_extention_function_kotlinKt.executor": "Run",
     "Kotlin.Demo_infix_kotlinKt.executor": "Run",
     "Kotlin.Demo_lambdaKt.executor": "Run",
+    "Kotlin.Demo_lambda_kotlinKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -58,7 +65,11 @@
     "jdk.selected.JAVA_MODULE": "openjdk-18 (2)",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Volumes/DATA/Code/Kotlin",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "scala_project_settings_configurable.last_selected_tab_index": "0",
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,7 +81,7 @@
       <recent name="D:\CodeJava\Kotlin\_2ControlFlow\KotlinDoWhileLoop" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Demo_infix_kotlinKt">
+  <component name="RunManager" selected="Kotlin.Demo_extention_function_kotlinKt">
     <configuration name="Demo_Inline_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo_Inline_kotlinKt" />
       <module name="Kotlin" />
@@ -78,8 +89,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo_infix_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Infix.Demo_infix_kotlinKt" />
+    <configuration name="Demo_data_class_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataClass.Demo_data_class_kotlinKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_extention_function_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Extention_Function_and_Properties.Demo_extention_function_kotlinKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,15 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_3Function.HigherOrderFunction.Test4Kt" />
-      <module name="Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_3Function.InlineFunction.TestKt" />
+    <configuration name="Demo_lambda_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambda.Demo_lambda_kotlinKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,13 +119,30 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Demo_infix_kotlinKt" />
+        <item itemvalue="Kotlin.Demo_extention_function_kotlinKt" />
+        <item itemvalue="Kotlin.Demo_data_class_kotlinKt" />
+        <item itemvalue="Kotlin.Demo_lambda_kotlinKt" />
         <item itemvalue="Kotlin.Demo_Inline_kotlinKt" />
         <item itemvalue="Kotlin.Demo_lambdaKt" />
-        <item itemvalue="Kotlin.TestKt" />
-        <item itemvalue="Kotlin.Test4Kt" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="intInjectionMapping">
+      <map>
+        <entry key="html" value="HTML" />
+        <entry key="java" value="JAVA" />
+        <entry key="json" value="JSON" />
+        <entry key="json5" value="JSON5" />
+        <entry key="md" value="Markdown" />
+        <entry key="protobuf" value="protobuf" />
+        <entry key="scala" value="Scala" />
+        <entry key="svg" value="SVG" />
+        <entry key="xhtml" value="XHTML" />
+        <entry key="xml" value="XML" />
+        <entry key="yaml" value="yaml" />
+      </map>
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
