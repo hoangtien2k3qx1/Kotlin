@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="380681f7-dac9-4e2b-abc1-c2a2878f8534" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Delegation/demo_delegation_kotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Delegation/demo_delegation_properties_kotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exception/demo_exception_kotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operator_Overloading/REAMDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operator_Overloading/demo_operator_overloading.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scope_Function/REAMDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Scope_Function/REAMDE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scope_Function/demo_also_scope_function_kotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Scope_Function/demo_also_scope_function_kotlin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scope_Function/demo_apply_scope_function_kotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Scope_Function/demo_apply_scope_function_kotlin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scope_Function/demo_let_kotlin_scope_function.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Scope_Function/demo_let_kotlin_scope_function.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scope_Function/demo_run_scope_function_kotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Scope_Function/demo_run_scope_function_kotlin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scope_Function/demo_takeIf_scope_function_kotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Scope_Function/demo_takeIf_scope_function_kotlin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scope_Function/demo_takeUnless_scope_function_kotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Scope_Function/demo_takeUnless_scope_function_kotlin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scope_Function/demo_with_scope_function_kotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Scope_Function/demo_with_scope_function_kotlin.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +55,15 @@
     "Kotlin.Demo_Scope_FunctionKt.executor": "Run",
     "Kotlin.Demo_also_scope_function_kotlinKt.executor": "Run",
     "Kotlin.Demo_data_class_kotlinKt.executor": "Run",
+    "Kotlin.Demo_delegation_kotlinKt.executor": "Run",
+    "Kotlin.Demo_delegation_properties_kotlinKt.executor": "Run",
+    "Kotlin.Demo_exception_kotlinKt.executor": "Run",
     "Kotlin.Demo_extention_function_kotlinKt.executor": "Run",
     "Kotlin.Demo_infix_kotlinKt.executor": "Run",
     "Kotlin.Demo_lambdaKt.executor": "Run",
     "Kotlin.Demo_lambda_kotlinKt.executor": "Run",
     "Kotlin.Demo_let_kotlin_scope_functionKt.executor": "Run",
+    "Kotlin.Demo_operator_overloadingKt.executor": "Run",
     "Kotlin.Demo_run_scope_function_kotlinKt.executor": "Run",
     "Kotlin.Demo_takeIf_scope_function_kotlinKt.executor": "Run",
     "Kotlin.Demo_takeUnless_scope_function_kotlinKt.executor": "Run",
@@ -76,7 +79,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "scala_project_settings_configurable.last_selected_tab_index": "0",
-    "settings.editor.selected.configurable": "copyright"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -88,9 +91,23 @@
       <recent name="D:\CodeJava\Kotlin\_2ControlFlow\KotlinDoWhileLoop" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Demo_let_kotlin_scope_functionKt">
-    <configuration name="Demo_also_scope_function_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scope_Function.Demo_also_scope_function_kotlinKt" />
+  <component name="RunManager" selected="Kotlin.Demo_delegation_properties_kotlinKt">
+    <configuration name="Demo_delegation_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Delegation.Demo_delegation_kotlinKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_delegation_properties_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Delegation.Demo_delegation_properties_kotlinKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_exception_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exception.Demo_exception_kotlinKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,22 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo_run_scope_function_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scope_Function.Demo_run_scope_function_kotlinKt" />
-      <module name="Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo_takeIf_scope_function_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scope_Function.Demo_takeIf_scope_function_kotlinKt" />
-      <module name="Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo_takeUnless_scope_function_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scope_Function.Demo_takeUnless_scope_function_kotlinKt" />
+    <configuration name="Demo_operator_overloadingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Operator_Overloading.Demo_operator_overloadingKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Demo_delegation_properties_kotlinKt" />
+        <item itemvalue="Kotlin.Demo_delegation_kotlinKt" />
+        <item itemvalue="Kotlin.Demo_exception_kotlinKt" />
+        <item itemvalue="Kotlin.Demo_operator_overloadingKt" />
         <item itemvalue="Kotlin.Demo_let_kotlin_scope_functionKt" />
-        <item itemvalue="Kotlin.Demo_run_scope_function_kotlinKt" />
-        <item itemvalue="Kotlin.Demo_also_scope_function_kotlinKt" />
-        <item itemvalue="Kotlin.Demo_takeUnless_scope_function_kotlinKt" />
-        <item itemvalue="Kotlin.Demo_takeIf_scope_function_kotlinKt" />
       </list>
     </recent_temporary>
   </component>

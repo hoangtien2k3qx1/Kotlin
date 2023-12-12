@@ -37,7 +37,7 @@ fun randomEvenIntOrNullOld(): Int? {
     return if (number % 2 != 0) number else null
 }
 
-// scope function with let <=> extention function
+// scope function with let <=> extension function
 
 //fun randomEvenIntOrNull(): Int? = Random.nextInt().let {
 //    random -> if (random % 2 != 0) random else null

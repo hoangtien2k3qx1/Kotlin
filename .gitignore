@@ -17,5 +17,7 @@ out/
 *.tar.gz
 *.rar
 
+.DS_Store
+
 hs_err_pid*
 replay_pid*
