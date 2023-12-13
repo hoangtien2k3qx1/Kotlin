@@ -1,4 +1,4 @@
-package Delegation
+package Delegation.Delegation_Properties
 
 /**
  * @author: hoangtien2k3
@@ -18,13 +18,14 @@ package Delegation
 
 
 
-import kotlin.math.E
 import kotlin.properties.Delegates
 import kotlin.reflect.KProperty
 
+// Example delegate properties
 class Example {
     var delegationProperty: String by Delegate()
 }
+
 
 class Delegate {
     operator fun getValue(thisRef: Any?, property: KProperty<*>): String {
@@ -37,7 +38,7 @@ class Delegate {
 }
 
 
-
+// Standard delegates
 // Example Lazy Properties in kotlin delegation
 val lazyValue: String by lazy {
     println("computed!")

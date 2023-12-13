@@ -1,4 +1,4 @@
-package Delegation
+package Delegation.Delegation
 
 /**
  * @author: hoangtien2k3
@@ -48,7 +48,6 @@ class ProductRepositoryAPIVersion1 : ProductRepository {
     override fun getFavoriteProduct(): List<ProductEntity> {
         println("\n$this::getFavoriteProduct")
         return listOf(ProductEntity(id = "faucibus", name = "Kayla Rodriquez", price = 4.5))
-
     }
 
     override fun getTrendingProduct(): List<ProductEntity> {
@@ -66,7 +65,7 @@ class ProductRepositoryAPIVersion1 : ProductRepository {
 // giờ ta chỉ muốn kế thừa và triển khai lại 1 hàm trong ProductEntity thôi thì làm thế nào
 // nên kotlin có 1 cái là Delegation rất hay cho việc đó
 class ProductRepositoryAPIVersion2(
-    val demoDelegate: ProductRepository
+    private val demoDelegate: ProductRepository
 ) : ProductRepository by demoDelegate {
     override fun getPopularProduct(): List<ProductEntity> {
         println("\nVersion 2: Delegation >>>>> $this::getPopularProduct")
