@@ -1,5 +1,19 @@
 package Higher_Order_Function
 
+/**
+ * @author: hoangtien2k3
+ * @create: 14/12/2023 - 17:26
+ * @file: Higher-Order-Function.kt
+ * @update: 14/12/2023
+ * @description:
+ */
+
+/**
+ * @note: Higher Order Function with Generic Kotlin
+ *
+ *
+ */
+
 fun <T, R> Collection<T>.fold(
     initial: R,
     combine: (acc: R, nextElement: T) -> R
@@ -11,24 +25,36 @@ fun <T, R> Collection<T>.fold(
     return accumulator
 }
 
+
+class IntTransformer: (Int) -> Int {
+    override operator fun invoke(x: Int): Int = TODO()
+}
+
 fun main() {
 
     val items = listOf(1, 2, 3, 4, 5)
 
 // Lambdas are code blocks enclosed in curly braces.
     items.fold(0, {
-            acc: Int, i: Int ->
+        acc: Int, i: Int ->
         print("acc = $acc, i = $i, ")
         val result = acc + i
         println("result = $result")
+
         // The last expression in a lambda is considered the return value:
         result
     })
 
-// Parameter types in a lambda are optional if they can be inferred:
+    // Parameter types in a lambda are optional if they can be inferred:
     val joinedToString = items.fold("Elements:", { acc, i -> acc + " " + i })
 
-// Function references can also be used for higher-order function calls:
+    // Function references can also be used for higher-order function calls:
     val product = items.fold(1, Int::times)
+
+
+
+    println("________________________________________________")
+
+    val intFunction: (Int) -> Int = IntTransformer()
 
 }
