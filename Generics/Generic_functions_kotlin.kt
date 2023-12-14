@@ -20,7 +20,6 @@ package Generics
  * }
  */
 
-
 /**
  * @note: Generic constraints
  *
@@ -33,13 +32,11 @@ fun <T : Comparable<T>> max(a: T, b: T): T {
     return if (a > b) a else b
 }
 
-
 inline fun <reified A, reified B> Pair<*, *>.asPairOf(): Pair<A, B>? {
     if (first !is A || second !is B)
         return null
     return first as A to second as B
 }
-
 
 fun main() {
 
@@ -48,8 +45,6 @@ fun main() {
 
     val resultDouble = max(4.5, 2.5)
     println("Max of 4.5 and 2.5 is: $resultDouble")
-
-
 
     println("___".repeat(50))
 

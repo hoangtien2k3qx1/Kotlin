@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="380681f7-dac9-4e2b-abc1-c2a2878f8534" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Delegation/Delegation_Properties/Delegating_to_another_property﻿.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delegation/Delegation_Properties/Local_delegated_properties﻿.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delegation/Delegation_Properties/Property_delegate_requirements﻿.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delegation/Delegation_Properties/Storing_properties_in_a_map.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enum_Classes/demo_Enum_Classes_Kotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics/Generic_functions_kotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics/demo_Generics_kotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nested_and_Inner_Class/demo_nested_class_and_inner_class_kotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Object_Expressions_and_Declarations/demo_object_expressions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Type_aliases/demo_type_aliases_kotlin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics/test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics/test1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Higher_Order_Function/Higher-Order-Function.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Higher_Order_Function/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Higher_Order_Function/demo_hight_order_function_kotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Higher_Order_Function/test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Delegation/demo_delegation_kotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Delegation/Delegation/demo_delegation_kotlin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Delegation/demo_delegation_properties_kotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Delegation/Delegation_Properties/demo_delegation_properties_kotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generics/Generic_functions_kotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Generics/Generic_functions_kotlin.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +63,7 @@
     "Kotlin.Demo_delegation_properties_kotlinKt.executor": "Run",
     "Kotlin.Demo_exception_kotlinKt.executor": "Run",
     "Kotlin.Demo_extention_function_kotlinKt.executor": "Run",
+    "Kotlin.Demo_hight_order_function_kotlinKt.executor": "Run",
     "Kotlin.Demo_infix_kotlinKt.executor": "Run",
     "Kotlin.Demo_lambdaKt.executor": "Run",
     "Kotlin.Demo_lambda_kotlinKt.executor": "Run",
@@ -80,6 +76,9 @@
     "Kotlin.Demo_takeUnless_scope_function_kotlinKt.executor": "Run",
     "Kotlin.Demo_type_aliases_kotlinKt.executor": "Run",
     "Kotlin.Generic_functions_kotlinKt.executor": "Debug",
+    "Kotlin.Higher_Order_FunctionKt.executor": "Run",
+    "Kotlin.Test1Kt.executor": "Run",
+    "Kotlin.TestKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -106,30 +105,9 @@
       <recent name="D:\CodeJava\Kotlin\_2ControlFlow\KotlinDoWhileLoop" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Generic_functions_kotlinKt">
-    <configuration name="Demo_Enum_Classes_KotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Enum_Classes.Demo_Enum_Classes_KotlinKt" />
-      <module name="Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo_Generics_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.Demo_Generics_kotlinKt" />
-      <module name="Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo_nested_class_and_inner_class_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Nested_and_Inner_Class.Demo_nested_class_and_inner_class_kotlinKt" />
-      <module name="Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo_object_expressionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Object_Expressions_and_Declarations.Demo_object_expressionsKt" />
+  <component name="RunManager" selected="Kotlin.Higher_Order_FunctionKt">
+    <configuration name="Demo_hight_order_function_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Higher_Order_Function.Demo_hight_order_function_kotlinKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,13 +120,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Higher_Order_FunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Higher_Order_Function.Higher_Order_FunctionKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.Test1Kt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Higher_Order_Function.TestKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Higher_Order_FunctionKt" />
+        <item itemvalue="Kotlin.TestKt" />
+        <item itemvalue="Kotlin.Demo_hight_order_function_kotlinKt" />
+        <item itemvalue="Kotlin.Test1Kt" />
         <item itemvalue="Kotlin.Generic_functions_kotlinKt" />
-        <item itemvalue="Kotlin.Demo_Generics_kotlinKt" />
-        <item itemvalue="Kotlin.Demo_nested_class_and_inner_class_kotlinKt" />
-        <item itemvalue="Kotlin.Demo_Enum_Classes_KotlinKt" />
-        <item itemvalue="Kotlin.Demo_object_expressionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -186,5 +185,20 @@
       <updated>1688404496288</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/Higher_Order_Function/demo_hight_order_function_kotlin.kt</url>
+          <line>117</line>
+          <properties method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
