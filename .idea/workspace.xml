@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="380681f7-dac9-4e2b-abc1-c2a2878f8534" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Generics/test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics/test1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Higher_Order_Function/Higher-Order-Function.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Higher_Order_Function/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Higher_Order_Function/demo_hight_order_function_kotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Higher_Order_Function/test.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generics/Generic_functions_kotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Generics/Generic_functions_kotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Higher_Order_Function/Higher-Order-Function.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Higher_Order_Function/Higher-Order-Function.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
