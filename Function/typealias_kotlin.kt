@@ -3,7 +3,7 @@ package Function
 /**
  * @author: hoangtien2k3
  * @create: 15/12/2023 - 15:28
- * @file: typealias.kt
+ * @file: typealias_kotlin.kt
  * @update: 15/12/2023
  * @description:
  */

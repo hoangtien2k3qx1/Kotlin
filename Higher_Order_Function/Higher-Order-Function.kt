@@ -14,6 +14,7 @@ package Higher_Order_Function
  *
  */
 
+// higher order function collection
 fun <T, R> Collection<T>.fold(
     initial: R,
     combine: (acc: R, nextElement: T) -> R
@@ -26,8 +27,17 @@ fun <T, R> Collection<T>.fold(
 }
 
 
-class IntTransformer: (Int) -> Int {
-    override operator fun invoke(x: Int): Int = TODO()
+fun <S, T> StringBuilder.get(
+    initial: S,
+    combine: (acc: S, nextElement: T) -> S
+): S {
+    var accumulator = initial
+
+    for (index in indices) {
+        accumulator = combine(accumulator, get(index) as T)
+    }
+
+    return accumulator
 }
 
 fun main() {
@@ -54,6 +64,8 @@ fun main() {
         result
     }
 
+
+
     // Parameter types in a lambda are optional if they can be inferred:
     val joinedToString = items.fold("Elements:", { acc, i -> acc + " " + i })
 
@@ -61,9 +73,25 @@ fun main() {
     val product = items.fold(1, Int::times)
 
 
-
     println("________________________________________________")
 
-    val intFunction: (Int) -> Int = IntTransformer()
+
+    val stringBuilder = StringBuilder().apply {
+        append("Hello, ")
+        append("world")
+        append("!")
+    }
+
+    // Sử dụng hàm get để kết hợp các phần tử thành một giá trị
+    val result = stringBuilder.get(" ", String::plus)
+
+    val result2 = stringBuilder.get(" ") { acc: String, nextElement: Char -> acc + nextElement }
+
+
+    // In kết quả result
+    println("Result: $result")
+
+    // In kết quả result2
+    println("Result: $result2")
 
 }

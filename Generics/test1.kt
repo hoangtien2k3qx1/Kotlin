@@ -8,7 +8,6 @@ package Generics
  * @description: 
  */
 
-
 /**
  * @note: receiver type:
  *
