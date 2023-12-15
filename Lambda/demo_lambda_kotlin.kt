@@ -46,7 +46,7 @@ fun adder(firstNumber: Int): (Int) -> Int {
 fun adder1(s1: Int): (Int) -> Int = { s2 -> s1 * s2 }
 
 
-// calculater sum
+// calculater sum: higher order function
 fun operation(a: Int, b: Int, op: (Int, Int) -> Int): Int {
     return op(a, b)
 }
@@ -84,6 +84,17 @@ fun main() {
     // function lambda example:
     val sum_a_plus_b = operation(1, 2, {a, b -> a + b})
     println(sum_a_plus_b)
+
+
+    // C1
+    val addOne1 = adder1(2)
+    val addOne2 = addOne1(4)
+    println("AddOne: $addOne2")
+
+    val addOneExample = adder1(2)(4)
+    println("AddOneExample: $addOneExample")
+
+
 
     val adder1 = adder(firstNumber = 1) // 1 + 10
     println(adder1)

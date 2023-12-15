@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="380681f7-dac9-4e2b-abc1-c2a2878f8534" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Function/First_Class_Function.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/Higher_Order_Function.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/crossinline.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/demo_function_kotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/inline_function.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/noinline_function.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/typealias.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics/Generic_constraints﻿.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambda/demo_currying_function_kotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Higher_Order_Function/Higher-Order-Function.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Higher_Order_Function/Higher-Order-Function.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lambda/demo_lambda_kotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda/demo_lambda_kotlin.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +61,13 @@
     "Kotlin.Demo_Inline_kotlinKt.executor": "Run",
     "Kotlin.Demo_Scope_FunctionKt.executor": "Run",
     "Kotlin.Demo_also_scope_function_kotlinKt.executor": "Run",
+    "Kotlin.Demo_currying_function_kotlinKt.executor": "Run",
     "Kotlin.Demo_data_class_kotlinKt.executor": "Run",
     "Kotlin.Demo_delegation_kotlinKt.executor": "Run",
     "Kotlin.Demo_delegation_properties_kotlinKt.executor": "Run",
     "Kotlin.Demo_exception_kotlinKt.executor": "Run",
     "Kotlin.Demo_extention_function_kotlinKt.executor": "Run",
+    "Kotlin.Demo_function_kotlinKt.executor": "Run",
     "Kotlin.Demo_hight_order_function_kotlinKt.executor": "Run",
     "Kotlin.Demo_infix_kotlinKt.executor": "Run",
     "Kotlin.Demo_lambdaKt.executor": "Run",
@@ -67,6 +80,7 @@
     "Kotlin.Demo_takeIf_scope_function_kotlinKt.executor": "Run",
     "Kotlin.Demo_takeUnless_scope_function_kotlinKt.executor": "Run",
     "Kotlin.Demo_type_aliases_kotlinKt.executor": "Run",
+    "Kotlin.Generic_constraints_Kt.executor": "Run",
     "Kotlin.Generic_functions_kotlinKt.executor": "Debug",
     "Kotlin.Higher_Order_FunctionKt.executor": "Run",
     "Kotlin.Test1Kt.executor": "Run",
@@ -97,16 +111,30 @@
       <recent name="D:\CodeJava\Kotlin\_2ControlFlow\KotlinDoWhileLoop" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Higher_Order_FunctionKt">
-    <configuration name="Demo_hight_order_function_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Higher_Order_Function.Demo_hight_order_function_kotlinKt" />
+  <component name="RunManager" selected="Kotlin.Demo_function_kotlinKt">
+    <configuration name="Demo_currying_function_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambda.Demo_currying_function_kotlinKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generic_functions_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.Generic_functions_kotlinKt" />
+    <configuration name="Demo_function_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Function.Demo_function_kotlinKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_lambda_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambda.Demo_lambda_kotlinKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generic_constraints_Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.Generic_constraints_Kt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,27 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.Test1Kt" />
-      <module name="Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Higher_Order_Function.TestKt" />
-      <module name="Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Demo_function_kotlinKt" />
+        <item itemvalue="Kotlin.Demo_currying_function_kotlinKt" />
+        <item itemvalue="Kotlin.Demo_lambda_kotlinKt" />
+        <item itemvalue="Kotlin.Generic_constraints_Kt" />
         <item itemvalue="Kotlin.Higher_Order_FunctionKt" />
-        <item itemvalue="Kotlin.TestKt" />
-        <item itemvalue="Kotlin.Demo_hight_order_function_kotlinKt" />
-        <item itemvalue="Kotlin.Test1Kt" />
-        <item itemvalue="Kotlin.Generic_functions_kotlinKt" />
       </list>
     </recent_temporary>
   </component>
