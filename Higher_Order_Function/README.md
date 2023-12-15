@@ -1,8 +1,52 @@
 
-## Higher Order Function:
+## [Higher Order Function:]()
+
+Định nghĩa: (functions) có thể được truyền vào như một biến của hàm khác, và cũng có thể được trả về từ một hàm nào đó. Đấy chính là Higher Order Function.
 
 
-## Phần 2 - Lambda?
+```kotlin
+//A simple Higher Order Function in Kotlin
+//This function accepts three parameters 
+//And the last parameter is a function
+fun rollDice(range: IntRange, 
+             time: Int, 
+             callback: (result: Int) -> Unit
+) {
+    for (i in 0 until time) {
+        val result = range.random()
+        //As the last parameter is a function 
+        //we can call it as a function
+        callback(result)
+    }
+}
+```
+
+Trong 3 tham số truyền vào của hàm rollDice, thì tham số thứ ba chính là một function
+
+![img.png](img.png)
+
+`Giải thích:`
+Trong đó, callback chính là tên của functions, đồng thời là tên của tham số truyền vào. (result: Int) lại chính là tham số của callback. Còn Unit chính là kiểu trả về của function.
+
+
+`Gọi Higher Order Function:`
+```kotlin
+fun main() {
+    rollDice(1..6, 3, { result ->
+        println(result)
+    })
+}
+```
+
+![img_1.png](img_1.png)
+
+`Giải thích:`
+Ở đây, result chính là tham số của hàm callback. Lệnh println chính là công việc thực hiện tương ứng với hàm callback ở trên.
+
+
+
+
+## [Phần 2 - Lambda?]()
 
 - Biểu thức của lambda luôn được bao bởi {}
 - Nếu lambda function có bất kì param nào nó phải ở trước toán tử -> (kiểu dữ liệu của param có thể được bỏ qua)
